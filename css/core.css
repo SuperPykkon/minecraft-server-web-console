@@ -1,0 +1,230 @@
+/*
+@import url("//fonts.googleapis.com/css?family=Ubuntu:300normal,300italic,400normal,400italic,500normal,500italic,700normal,700italic|Open+Sans:400normal|Roboto:400normal|Lato:400normal|Oswald:400normal|Droid+Sans:400normal|PT+Sans:400normal|Lobster:400normal|Raleway:400normal|Arvo:400normal|Droid+Serif:400normal&subset=all");
+*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100%;
+	height: auto;
+	background-color: #111317;
+  /*font-family: "Ubuntu";*/
+	font-family: Arial;
+	color: #868989;
+	font-weight: 500;
+	line-height:1.1;
+}
+
+* {
+    outline: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.update {
+	overflow-y: auto;
+    overflow-x: hidden;
+	overflow: auto;
+    font-family:"Ubuntu";
+	background-color: #1c1f25;
+	color: #868989;
+	padding:10px;
+}
+
+a{
+	color: #074E8C;
+}
+
+.row {
+    width: 100%;
+	display: flex;
+}
+
+.log {
+    padding: 2px 0px;
+    margin-left: 8px;
+	display: flex;
+}
+
+.log i {
+  padding: 0px 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.cmd {
+    border-left: 5px solid #41BFFA;
+	padding-left: 32px;
+}
+
+.cmds {
+    color: #41BFFA;
+}
+
+.ud {
+  font-size: 13px;
+}
+
+.updates {
+    border-left: 5px solid #868989;
+	padding-left: 32px;
+}
+
+.time {
+	width: 64px;
+}
+
+.undefined {
+    border-left: 5px solid #868989;
+	padding-left: 32px;
+}
+
+.joined {
+    border-left: 5px solid #01DF01;
+}
+
+.joined i {
+    color: #01DF01;
+}
+
+.left {
+    border-left: 5px solid #FA5858;
+}
+
+.left i {
+    color: #FA5858;
+}
+
+.info {
+    border-left: 5px solid #0489B1;
+	padding-left: 32px;
+}
+
+.infos {
+    color: #0489B1;
+}
+
+.warning {
+    border-left: 5px solid #FFBF00;
+	color: #FFBF00;
+}
+
+.warning i {
+    color: #FFBF00;
+}
+
+.warnings {
+    color: #FFBF00;
+}
+
+.error {
+    border-left: 5px solid #FF0000;
+	color: #FF0000;
+}
+
+.error i {
+    color: #FF0000;
+}
+
+.errors {
+    color: #FF0000;
+}
+
+.log_spacer {
+    padding-left: 144px;
+}
+
+.infologs {
+    background-color: #282C35;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#infologs {
+	justify-content: center;
+    display: flex;
+}
+
+.block {
+    padding: 10px 50px;
+	display: block;
+	float: left;
+}
+.block i {
+    margin-right: 10px;
+}
+.block:hover {
+    background-color: #323742;
+}
+
+.block-info {
+	color: #0489B1;
+}
+
+.block-cmds {
+	color: #41BFFA;
+}
+
+.block-warning {
+	color: #FFBF00;
+}
+
+.block-errors {
+	color: #FF0000;
+}
+
+#cmd-input {
+	width: 100%;
+    padding: 10px;
+    background-color: #0a0a0a;
+    color: #eee;
+    border: 1px solid #323742;
+    font-size: 16px;
+    font-family: "Ubuntu";
+}
+
+#cmd-input:focus {
+    border: 1px solid #009cdd;
+}
+
+.cmd-wrapper {
+	display: flex;
+}
+
+.cmd-type {
+	line-height: 40px;
+    background-color: #0A0A0A;
+    padding: 0px 10px;
+}
+
+.server-status {
+	position: fixed;
+    right: 50px;
+    top: 10px;
+    padding: 10px 30px;
+    border-radius: 20px;
+	background-color: #1C1F25;
+    font-weight: 300;
+}
+
+.server-status-online {
+	border: 1px solid #0FDD1A;
+    color: #0FDD1A;
+}
+
+.server-status-offline {
+	border: 1px solid #FF0000;
+    color: #FF0000;
+}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }

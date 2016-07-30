@@ -1,0 +1,61 @@
+.notification-board {
+	position: fixed;
+	width: 300px;
+	z-index: 9999;
+}
+.notification-board.top {
+	top: 50px;
+}
+.notification-board.right {
+	right: 10px;
+}
+.notification-board.bottom {
+	bottom: 0;
+}
+.notification-board.left {
+	left: 0;
+}
+.notification-board > .notification {
+    border: 1px solid #323742;
+    background-color: #111317;
+	color: #ffffff;
+    padding: 10px 20px;
+	position: relative;
+	font-weight: 300;
+	display: flex;
+	
+}
+.notification-board > .notification:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden;
+}
+.notification-board.top > .notification {
+	margin-top: 10px;
+}
+.notification-board.right > .notification-board.bottom > .notification {
+	margin-bottom: 10px;
+}
+.notification-board.left > .notification {
+	margin-left: 10px;
+}
+.notification-board > .notification i {
+	float: left;
+	margin-right: 10px;
+	font-size: 36px;
+}
+
+.notification-header {
+	font-weight: 500;
+}
+
+.notification-error {
+	color: #FF0000;
+}
+
+.notification-success {
+	color: #0FDD1A;
+}
