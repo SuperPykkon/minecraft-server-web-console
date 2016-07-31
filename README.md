@@ -15,7 +15,7 @@ and more!
 # Screenshots:
 Don't believe some of what I said? Here are some screenshots.
 
-http://i.imgur.com/orF1jm1.png
+http://imgur.com/a/njlgh
 
 # How it works:
 Basically, it uses the server logs (/logs/latest.log) to display the logs.
